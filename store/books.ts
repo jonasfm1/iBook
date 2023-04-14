@@ -14,7 +14,7 @@ export default class Books extends VuexModule {
   public get $all(){
     return this.books
   }
-  public get $sigle(){
+  public get $single(){
     return this.book
   }
 
